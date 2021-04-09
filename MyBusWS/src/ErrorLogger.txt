@@ -1,0 +1,364 @@
+Wed Feb 03 2021 16:38:22 GMT+0530 (India Standard Time) - ReferenceError: bookings is not defined
+    at routing.get (D:\bus-booking\bus-booking\MyBusWS\src\routes\routing.js:10:18)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Wed Feb 03 2021 16:39:09 GMT+0530 (India Standard Time) - ReferenceError: bookings is not defined
+    at routing.get (D:\bus-booking\bus-booking\MyBusWS\src\routes\routing.js:10:18)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Thu Feb 04 2021 12:46:03 GMT+0530 (India Standard Time) - ReferenceError: busBookingService is not defined
+    at routing.get (D:\bus-booking\bus-booking\MyBusWS\src\routes\routing.js:9:23)
+    at Layer.handle [as handle_request] (D:\bus-booking\bus-booking\MyBusWS\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\bus-booking\bus-booking\MyBusWS\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\bus-booking\bus-booking\MyBusWS\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\bus-booking\bus-booking\MyBusWS\node_modules\express\lib\router\layer.js:95:5)
+    at D:\bus-booking\bus-booking\MyBusWS\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\bus-booking\bus-booking\MyBusWS\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\bus-booking\bus-booking\MyBusWS\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\bus-booking\bus-booking\MyBusWS\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\bus-booking\bus-booking\MyBusWS\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\bus-booking\bus-booking\MyBusWS\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\bus-booking\bus-booking\MyBusWS\node_modules\express\lib\router\index.js:317:13)
+    at D:\bus-booking\bus-booking\MyBusWS\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\bus-booking\bus-booking\MyBusWS\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\bus-booking\bus-booking\MyBusWS\node_modules\express\lib\router\index.js:275:10)
+    at requestLogger (D:\bus-booking\bus-booking\MyBusWS\src\utilities\requestLogger.js:8:5)
+Thu Feb 04 2021 15:28:09 GMT+0530 (India Standard Time) - TypeError: carBooking.generateId is not a function
+    at Object.carBookingDb.bookCar (D:\bus-booking\bus-booking\MyBusWS\src\model\users.js:47:35)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Thu Feb 04 2021 19:19:53 GMT+0530 (India Standard Time) - Error: booking failed
+    at Object.carBookingDb.bookCar (D:\bus-booking\bus-booking\MyBusWS\src\model\users.js:54:21)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Thu Feb 04 2021 21:32:16 GMT+0530 (India Standard Time) - Error: booking failed
+    at Object.carBookingDb.bookCar (D:\bus-booking\bus-booking\MyBusWS\src\model\users.js:55:21)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Thu Feb 04 2021 21:34:01 GMT+0530 (India Standard Time) - Error: booking failed
+    at Object.carBookingDb.bookCar (D:\bus-booking\bus-booking\MyBusWS\src\model\users.js:56:21)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Thu Feb 04 2021 21:34:44 GMT+0530 (India Standard Time) - Error: booking failed
+    at Object.carBookingDb.bookCar (D:\bus-booking\bus-booking\MyBusWS\src\model\users.js:57:21)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Thu Feb 04 2021 21:35:40 GMT+0530 (India Standard Time) - Error: booking failed
+    at Object.carBookingDb.bookCar (D:\bus-booking\bus-booking\MyBusWS\src\model\users.js:57:21)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Thu Feb 04 2021 21:36:01 GMT+0530 (India Standard Time) - Error: booking failed
+    at Object.carBookingDb.bookCar (D:\bus-booking\bus-booking\MyBusWS\src\model\users.js:57:21)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Thu Feb 04 2021 21:39:03 GMT+0530 (India Standard Time) - CastError: Cast to date failed for value "Date(21/11/2021)" at path "dateOfBooking"
+    at model.Query.exec (D:\bus-booking\bus-booking\MyBusWS\node_modules\mongoose\lib\query.js:4358:21)
+    at model.Query.Query.then (D:\bus-booking\bus-booking\MyBusWS\node_modules\mongoose\lib\query.js:4452:15)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Thu Feb 04 2021 21:39:35 GMT+0530 (India Standard Time) - Error: booking failed
+    at Object.carBookingDb.bookCar (D:\bus-booking\bus-booking\MyBusWS\src\model\users.js:57:21)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Thu Feb 04 2021 22:56:42 GMT+0530 (India Standard Time) - Error: booking failed
+    at Object.carBookingDb.bookCar (D:\bus-booking\bus-booking\MyBusWS\src\model\users.js:56:21)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Fri Feb 05 2021 09:08:42 GMT+0530 (India Standard Time) - Error: booking failed
+    at Object.carBookingDb.bookCar (D:\bus-booking\bus-booking\MyBusWS\src\model\users.js:56:21)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Fri Feb 05 2021 09:42:00 GMT+0530 (India Standard Time) - Error: booking failed
+    at Object.carBookingDb.bookCar (D:\bus-booking\bus-booking\MyBusWS\src\model\users.js:56:21)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Fri Feb 05 2021 09:56:27 GMT+0530 (India Standard Time) - Error: booking failed
+    at Object.carBookingDb.bookCar (D:\bus-booking\bus-booking\MyBusWS\src\model\users.js:56:21)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Fri Feb 05 2021 09:56:28 GMT+0530 (India Standard Time) - Error: booking failed
+    at Object.carBookingDb.bookCar (D:\bus-booking\bus-booking\MyBusWS\src\model\users.js:56:21)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Fri Feb 05 2021 09:56:57 GMT+0530 (India Standard Time) - TypeError: model.insert is not a function
+    at Object.carBookingDb.bookCar (D:\bus-booking\bus-booking\MyBusWS\src\model\users.js:50:28)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Fri Feb 05 2021 09:57:10 GMT+0530 (India Standard Time) - TypeError: model.insertOne is not a function
+    at Object.carBookingDb.bookCar (D:\bus-booking\bus-booking\MyBusWS\src\model\users.js:50:28)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Fri Feb 05 2021 09:57:51 GMT+0530 (India Standard Time) - Error: booking failed
+    at Object.carBookingDb.bookCar (D:\bus-booking\bus-booking\MyBusWS\src\model\users.js:57:21)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Fri Feb 05 2021 10:00:31 GMT+0530 (India Standard Time) - Error: booking failed
+    at Object.carBookingDb.bookCar (D:\bus-booking\bus-booking\MyBusWS\src\model\users.js:57:21)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Fri Feb 05 2021 10:01:44 GMT+0530 (India Standard Time) - Error: booking failed
+    at Object.carBookingDb.bookCar (D:\bus-booking\bus-booking\MyBusWS\src\model\users.js:57:21)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Fri Feb 05 2021 10:02:11 GMT+0530 (India Standard Time) - Error: booking failed
+    at Object.carBookingDb.bookCar (D:\bus-booking\bus-booking\MyBusWS\src\model\users.js:57:21)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Fri Feb 05 2021 10:02:32 GMT+0530 (India Standard Time) - Error: booking failed
+    at Object.carBookingDb.bookCar (D:\bus-booking\bus-booking\MyBusWS\src\model\users.js:57:21)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Fri Feb 05 2021 10:02:57 GMT+0530 (India Standard Time) - Error: booking failed
+    at Object.carBookingDb.bookCar (D:\bus-booking\bus-booking\MyBusWS\src\model\users.js:57:21)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Fri Feb 05 2021 10:03:35 GMT+0530 (India Standard Time) - Error: booking failed
+    at Object.carBookingDb.bookCar (D:\bus-booking\bus-booking\MyBusWS\src\model\users.js:57:21)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Fri Feb 05 2021 20:17:58 GMT+0530 (India Standard Time) - ValidationError: Booking validation failed: dateOfBooking: Cast to date failed for value "Date(21/11/2021)" at path "dateOfBooking"
+    at model.Document.invalidate (D:\bus-booking\bus-booking\MyBusWS\node_modules\mongoose\lib\document.js:2692:32)
+    at model.$set (D:\bus-booking\bus-booking\MyBusWS\node_modules\mongoose\lib\document.js:1305:12)
+    at model.$set (D:\bus-booking\bus-booking\MyBusWS\node_modules\mongoose\lib\document.js:1009:16)
+    at model.Document (D:\bus-booking\bus-booking\MyBusWS\node_modules\mongoose\lib\document.js:149:12)
+    at model.Model (D:\bus-booking\bus-booking\MyBusWS\node_modules\mongoose\lib\model.js:105:12)
+    at new model (D:\bus-booking\bus-booking\MyBusWS\node_modules\mongoose\lib\model.js:4700:15)
+    at Array.callback (D:\bus-booking\bus-booking\MyBusWS\node_modules\mongoose\lib\model.js:3261:17)
+    at _start (D:\bus-booking\bus-booking\MyBusWS\node_modules\mongoose\lib\helpers\parallelLimit.js:27:37)
+    at parallelLimit (D:\bus-booking\bus-booking\MyBusWS\node_modules\mongoose\lib\helpers\parallelLimit.js:23:5)
+    at Function.Model.$__insertMany (D:\bus-booking\bus-booking\MyBusWS\node_modules\mongoose\lib\model.js:3291:3)
+    at process.nextTick (D:\bus-booking\bus-booking\MyBusWS\node_modules\kareem\index.js:370:33)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+Fri Feb 05 2021 20:18:01 GMT+0530 (India Standard Time) - ValidationError: Booking validation failed: dateOfBooking: Cast to date failed for value "Date(21/11/2021)" at path "dateOfBooking"
+    at model.Document.invalidate (D:\bus-booking\bus-booking\MyBusWS\node_modules\mongoose\lib\document.js:2692:32)
+    at model.$set (D:\bus-booking\bus-booking\MyBusWS\node_modules\mongoose\lib\document.js:1305:12)
+    at model.$set (D:\bus-booking\bus-booking\MyBusWS\node_modules\mongoose\lib\document.js:1009:16)
+    at model.Document (D:\bus-booking\bus-booking\MyBusWS\node_modules\mongoose\lib\document.js:149:12)
+    at model.Model (D:\bus-booking\bus-booking\MyBusWS\node_modules\mongoose\lib\model.js:105:12)
+    at new model (D:\bus-booking\bus-booking\MyBusWS\node_modules\mongoose\lib\model.js:4700:15)
+    at Array.callback (D:\bus-booking\bus-booking\MyBusWS\node_modules\mongoose\lib\model.js:3261:17)
+    at _start (D:\bus-booking\bus-booking\MyBusWS\node_modules\mongoose\lib\helpers\parallelLimit.js:27:37)
+    at parallelLimit (D:\bus-booking\bus-booking\MyBusWS\node_modules\mongoose\lib\helpers\parallelLimit.js:23:5)
+    at Function.Model.$__insertMany (D:\bus-booking\bus-booking\MyBusWS\node_modules\mongoose\lib\model.js:3291:3)
+    at process.nextTick (D:\bus-booking\bus-booking\MyBusWS\node_modules\kareem\index.js:370:33)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+Mon Feb 22 2021 14:41:48 GMT+0530 (India Standard Time) - TypeError: Cannot read property 'length' of undefined
+    at Object.Validator.validateCarId (D:\bus-booking\bus-booking\MyBusWS\src\utilities\validator.js:6:15)
+    at Object.carBookingService.bookCar (D:\bus-booking\bus-booking\MyBusWS\src\services\users.js:33:15)
+    at D:\bus-booking\bus-booking\MyBusWS\src\routes\routing.js:32:49
+    at Layer.handle [as handle_request] (D:\bus-booking\bus-booking\MyBusWS\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\bus-booking\bus-booking\MyBusWS\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\bus-booking\bus-booking\MyBusWS\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\bus-booking\bus-booking\MyBusWS\node_modules\express\lib\router\layer.js:95:5)
+    at D:\bus-booking\bus-booking\MyBusWS\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\bus-booking\bus-booking\MyBusWS\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\bus-booking\bus-booking\MyBusWS\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\bus-booking\bus-booking\MyBusWS\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\bus-booking\bus-booking\MyBusWS\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\bus-booking\bus-booking\MyBusWS\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\bus-booking\bus-booking\MyBusWS\node_modules\express\lib\router\index.js:317:13)
+    at D:\bus-booking\bus-booking\MyBusWS\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\bus-booking\bus-booking\MyBusWS\node_modules\express\lib\router\index.js:335:12)
+Mon Feb 22 2021 14:56:10 GMT+0530 (India Standard Time) - TypeError: Cannot read property 'length' of undefined
+    at Object.Validator.validateCarId (D:\bus-booking\bus-booking\MyBusWS\src\utilities\validator.js:6:15)
+    at Object.carBookingService.bookCar (D:\bus-booking\bus-booking\MyBusWS\src\services\users.js:33:15)
+    at D:\bus-booking\bus-booking\MyBusWS\src\routes\routing.js:32:49
+    at Layer.handle [as handle_request] (D:\bus-booking\bus-booking\MyBusWS\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\bus-booking\bus-booking\MyBusWS\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\bus-booking\bus-booking\MyBusWS\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\bus-booking\bus-booking\MyBusWS\node_modules\express\lib\router\layer.js:95:5)
+    at D:\bus-booking\bus-booking\MyBusWS\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\bus-booking\bus-booking\MyBusWS\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\bus-booking\bus-booking\MyBusWS\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\bus-booking\bus-booking\MyBusWS\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\bus-booking\bus-booking\MyBusWS\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\bus-booking\bus-booking\MyBusWS\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\bus-booking\bus-booking\MyBusWS\node_modules\express\lib\router\index.js:317:13)
+    at D:\bus-booking\bus-booking\MyBusWS\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\bus-booking\bus-booking\MyBusWS\node_modules\express\lib\router\index.js:335:12)
+Mon Feb 22 2021 14:58:21 GMT+0530 (India Standard Time) - TypeError: Cannot read property 'length' of undefined
+    at Object.Validator.validateCarId (D:\bus-booking\bus-booking\MyBusWS\src\utilities\validator.js:6:15)
+    at Object.carBookingService.bookCar (D:\bus-booking\bus-booking\MyBusWS\src\services\users.js:33:15)
+    at D:\bus-booking\bus-booking\MyBusWS\src\routes\routing.js:32:49
+    at Layer.handle [as handle_request] (D:\bus-booking\bus-booking\MyBusWS\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\bus-booking\bus-booking\MyBusWS\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\bus-booking\bus-booking\MyBusWS\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\bus-booking\bus-booking\MyBusWS\node_modules\express\lib\router\layer.js:95:5)
+    at D:\bus-booking\bus-booking\MyBusWS\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\bus-booking\bus-booking\MyBusWS\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\bus-booking\bus-booking\MyBusWS\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\bus-booking\bus-booking\MyBusWS\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\bus-booking\bus-booking\MyBusWS\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\bus-booking\bus-booking\MyBusWS\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\bus-booking\bus-booking\MyBusWS\node_modules\express\lib\router\index.js:317:13)
+    at D:\bus-booking\bus-booking\MyBusWS\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\bus-booking\bus-booking\MyBusWS\node_modules\express\lib\router\index.js:335:12)
+Mon Feb 22 2021 14:59:50 GMT+0530 (India Standard Time) - TypeError: Cannot read property 'length' of undefined
+    at Object.Validator.validateCarId (D:\bus-booking\bus-booking\MyBusWS\src\utilities\validator.js:6:15)
+    at Object.carBookingService.bookCar (D:\bus-booking\bus-booking\MyBusWS\src\services\users.js:33:15)
+    at D:\bus-booking\bus-booking\MyBusWS\src\routes\routing.js:32:49
+    at Layer.handle [as handle_request] (D:\bus-booking\bus-booking\MyBusWS\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\bus-booking\bus-booking\MyBusWS\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\bus-booking\bus-booking\MyBusWS\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\bus-booking\bus-booking\MyBusWS\node_modules\express\lib\router\layer.js:95:5)
+    at D:\bus-booking\bus-booking\MyBusWS\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\bus-booking\bus-booking\MyBusWS\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\bus-booking\bus-booking\MyBusWS\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\bus-booking\bus-booking\MyBusWS\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\bus-booking\bus-booking\MyBusWS\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\bus-booking\bus-booking\MyBusWS\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\bus-booking\bus-booking\MyBusWS\node_modules\express\lib\router\index.js:317:13)
+    at D:\bus-booking\bus-booking\MyBusWS\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\bus-booking\bus-booking\MyBusWS\node_modules\express\lib\router\index.js:335:12)
+Wed Feb 24 2021 18:24:55 GMT+0530 (India Standard Time) - TypeError: Cannot read property 'length' of undefined
+    at Object.Validator.validateCarId (D:\bus-booking\bus-booking\MyBusWS\src\utilities\validator.js:6:15)
+    at Object.carBookingService.bookCar (D:\bus-booking\bus-booking\MyBusWS\src\services\users.js:33:15)
+    at D:\bus-booking\bus-booking\MyBusWS\src\routes\routing.js:32:49
+    at Layer.handle [as handle_request] (D:\bus-booking\bus-booking\MyBusWS\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\bus-booking\bus-booking\MyBusWS\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\bus-booking\bus-booking\MyBusWS\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\bus-booking\bus-booking\MyBusWS\node_modules\express\lib\router\layer.js:95:5)
+    at D:\bus-booking\bus-booking\MyBusWS\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\bus-booking\bus-booking\MyBusWS\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\bus-booking\bus-booking\MyBusWS\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\bus-booking\bus-booking\MyBusWS\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\bus-booking\bus-booking\MyBusWS\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\bus-booking\bus-booking\MyBusWS\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\bus-booking\bus-booking\MyBusWS\node_modules\express\lib\router\index.js:317:13)
+    at D:\bus-booking\bus-booking\MyBusWS\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\bus-booking\bus-booking\MyBusWS\node_modules\express\lib\router\index.js:335:12)
+Sun Feb 28 2021 15:48:59 GMT+0530 (India Standard Time) - TypeError: dbModel.generateuid is not a function
+    at Object.carBookingDb.register (D:\bus-booking\bus-booking\MyBusWS\src\model\users.js:24:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Object.carBookingService.register (D:\bus-booking\bus-booking\MyBusWS\src\services\users.js:10:18)
+    at async D:\bus-booking\bus-booking\MyBusWS\src\routes\routing.js:11:17
+Sun Feb 28 2021 15:49:40 GMT+0530 (India Standard Time) - TypeError: CarBooking.generateuid is not a function
+    at Object.carBookingDb.register (D:\bus-booking\bus-booking\MyBusWS\src\model\users.js:24:26)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Object.carBookingService.register (D:\bus-booking\bus-booking\MyBusWS\src\services\users.js:10:18)
+    at async D:\bus-booking\bus-booking\MyBusWS\src\routes\routing.js:11:17
+Sun Feb 28 2021 15:50:12 GMT+0530 (India Standard Time) - ValidationError: Customer validation failed: customerId: Cast to Number failed for value "Promise { 1004 }" at path "customerId"
+    at model.Document.invalidate (D:\bus-booking\bus-booking\MyBusWS\node_modules\mongoose\lib\document.js:2692:32)
+    at model.$set (D:\bus-booking\bus-booking\MyBusWS\node_modules\mongoose\lib\document.js:1305:12)
+    at model.$set (D:\bus-booking\bus-booking\MyBusWS\node_modules\mongoose\lib\document.js:1009:16)
+    at model.Document (D:\bus-booking\bus-booking\MyBusWS\node_modules\mongoose\lib\document.js:149:12)
+    at model.Model (D:\bus-booking\bus-booking\MyBusWS\node_modules\mongoose\lib\model.js:105:12)
+    at new model (D:\bus-booking\bus-booking\MyBusWS\node_modules\mongoose\lib\model.js:4700:15)
+    at Array.<anonymous> (D:\bus-booking\bus-booking\MyBusWS\node_modules\mongoose\lib\model.js:3261:17)
+    at _start (D:\bus-booking\bus-booking\MyBusWS\node_modules\mongoose\lib\helpers\parallelLimit.js:27:37)
+    at parallelLimit (D:\bus-booking\bus-booking\MyBusWS\node_modules\mongoose\lib\helpers\parallelLimit.js:23:5)
+    at Function.Model.$__insertMany (D:\bus-booking\bus-booking\MyBusWS\node_modules\mongoose\lib\model.js:3291:3)
+    at D:\bus-booking\bus-booking\MyBusWS\node_modules\kareem\index.js:370:33
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+Sun Feb 28 2021 15:54:25 GMT+0530 (India Standard Time) - ValidationError: Customer validation failed: customerId: Cast to Number failed for value "Promise { <pending> }" at path "customerId"
+    at model.Document.invalidate (D:\bus-booking\bus-booking\MyBusWS\node_modules\mongoose\lib\document.js:2692:32)
+    at model.$set (D:\bus-booking\bus-booking\MyBusWS\node_modules\mongoose\lib\document.js:1305:12)
+    at model.$set (D:\bus-booking\bus-booking\MyBusWS\node_modules\mongoose\lib\document.js:1009:16)
+    at model.Document (D:\bus-booking\bus-booking\MyBusWS\node_modules\mongoose\lib\document.js:149:12)
+    at model.Model (D:\bus-booking\bus-booking\MyBusWS\node_modules\mongoose\lib\model.js:105:12)
+    at new model (D:\bus-booking\bus-booking\MyBusWS\node_modules\mongoose\lib\model.js:4700:15)
+    at Array.<anonymous> (D:\bus-booking\bus-booking\MyBusWS\node_modules\mongoose\lib\model.js:3261:17)
+    at _start (D:\bus-booking\bus-booking\MyBusWS\node_modules\mongoose\lib\helpers\parallelLimit.js:27:37)
+    at parallelLimit (D:\bus-booking\bus-booking\MyBusWS\node_modules\mongoose\lib\helpers\parallelLimit.js:23:5)
+    at Function.Model.$__insertMany (D:\bus-booking\bus-booking\MyBusWS\node_modules\mongoose\lib\model.js:3291:3)
+    at D:\bus-booking\bus-booking\MyBusWS\node_modules\kareem\index.js:370:33
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+Sun Feb 28 2021 15:55:57 GMT+0530 (India Standard Time) - ValidationError: Customer validation failed: customerId: Cast to Number failed for value "NaN" at path "customerId"
+    at model.Document.invalidate (D:\bus-booking\bus-booking\MyBusWS\node_modules\mongoose\lib\document.js:2692:32)
+    at model.$set (D:\bus-booking\bus-booking\MyBusWS\node_modules\mongoose\lib\document.js:1305:12)
+    at model.$set (D:\bus-booking\bus-booking\MyBusWS\node_modules\mongoose\lib\document.js:1009:16)
+    at model.Document (D:\bus-booking\bus-booking\MyBusWS\node_modules\mongoose\lib\document.js:149:12)
+    at model.Model (D:\bus-booking\bus-booking\MyBusWS\node_modules\mongoose\lib\model.js:105:12)
+    at new model (D:\bus-booking\bus-booking\MyBusWS\node_modules\mongoose\lib\model.js:4700:15)
+    at Array.<anonymous> (D:\bus-booking\bus-booking\MyBusWS\node_modules\mongoose\lib\model.js:3261:17)
+    at _start (D:\bus-booking\bus-booking\MyBusWS\node_modules\mongoose\lib\helpers\parallelLimit.js:27:37)
+    at parallelLimit (D:\bus-booking\bus-booking\MyBusWS\node_modules\mongoose\lib\helpers\parallelLimit.js:23:5)
+    at Function.Model.$__insertMany (D:\bus-booking\bus-booking\MyBusWS\node_modules\mongoose\lib\model.js:3291:3)
+    at D:\bus-booking\bus-booking\MyBusWS\node_modules\kareem\index.js:370:33
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+Sun Feb 28 2021 15:56:41 GMT+0530 (India Standard Time) - ValidationError: Customer validation failed: customerId: Cast to Number failed for value "NaN" at path "customerId"
+    at model.Document.invalidate (D:\bus-booking\bus-booking\MyBusWS\node_modules\mongoose\lib\document.js:2692:32)
+    at model.$set (D:\bus-booking\bus-booking\MyBusWS\node_modules\mongoose\lib\document.js:1305:12)
+    at model.$set (D:\bus-booking\bus-booking\MyBusWS\node_modules\mongoose\lib\document.js:1009:16)
+    at model.Document (D:\bus-booking\bus-booking\MyBusWS\node_modules\mongoose\lib\document.js:149:12)
+    at model.Model (D:\bus-booking\bus-booking\MyBusWS\node_modules\mongoose\lib\model.js:105:12)
+    at new model (D:\bus-booking\bus-booking\MyBusWS\node_modules\mongoose\lib\model.js:4700:15)
+    at Array.<anonymous> (D:\bus-booking\bus-booking\MyBusWS\node_modules\mongoose\lib\model.js:3261:17)
+    at _start (D:\bus-booking\bus-booking\MyBusWS\node_modules\mongoose\lib\helpers\parallelLimit.js:27:37)
+    at parallelLimit (D:\bus-booking\bus-booking\MyBusWS\node_modules\mongoose\lib\helpers\parallelLimit.js:23:5)
+    at Function.Model.$__insertMany (D:\bus-booking\bus-booking\MyBusWS\node_modules\mongoose\lib\model.js:3291:3)
+    at D:\bus-booking\bus-booking\MyBusWS\node_modules\kareem\index.js:370:33
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+Sun Feb 28 2021 16:00:05 GMT+0530 (India Standard Time) - ValidationError: Customer validation failed: customerId: Cast to Number failed for value "Promise { <pending> }" at path "customerId"
+    at model.Document.invalidate (D:\bus-booking\bus-booking\MyBusWS\node_modules\mongoose\lib\document.js:2692:32)
+    at model.$set (D:\bus-booking\bus-booking\MyBusWS\node_modules\mongoose\lib\document.js:1305:12)
+    at model.$set (D:\bus-booking\bus-booking\MyBusWS\node_modules\mongoose\lib\document.js:1009:16)
+    at model.Document (D:\bus-booking\bus-booking\MyBusWS\node_modules\mongoose\lib\document.js:149:12)
+    at model.Model (D:\bus-booking\bus-booking\MyBusWS\node_modules\mongoose\lib\model.js:105:12)
+    at new model (D:\bus-booking\bus-booking\MyBusWS\node_modules\mongoose\lib\model.js:4700:15)
+    at Array.<anonymous> (D:\bus-booking\bus-booking\MyBusWS\node_modules\mongoose\lib\model.js:3261:17)
+    at _start (D:\bus-booking\bus-booking\MyBusWS\node_modules\mongoose\lib\helpers\parallelLimit.js:27:37)
+    at parallelLimit (D:\bus-booking\bus-booking\MyBusWS\node_modules\mongoose\lib\helpers\parallelLimit.js:23:5)
+    at Function.Model.$__insertMany (D:\bus-booking\bus-booking\MyBusWS\node_modules\mongoose\lib\model.js:3291:3)
+    at D:\bus-booking\bus-booking\MyBusWS\node_modules\kareem\index.js:370:33
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+Sun Feb 28 2021 16:02:03 GMT+0530 (India Standard Time) - Error: User already present
+    at Object.carBookingService.register (D:\bus-booking\bus-booking\MyBusWS\src\services\users.js:14:17)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\bus-booking\bus-booking\MyBusWS\src\routes\routing.js:11:17
+Sun Feb 28 2021 22:36:39 GMT+0530 (India Standard Time) - Error: Login failed. Please register first
+    at Object.carBookingService.login (D:\bus-booking\bus-booking\MyBusWS\src\services\users.js:27:17)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\bus-booking\bus-booking\MyBusWS\src\routes\routing.js:23:17
+Sun Feb 28 2021 22:36:49 GMT+0530 (India Standard Time) - Error: Login failed. Please register first
+    at Object.carBookingService.login (D:\bus-booking\bus-booking\MyBusWS\src\services\users.js:27:17)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\bus-booking\bus-booking\MyBusWS\src\routes\routing.js:23:17
+Sun Feb 28 2021 22:36:54 GMT+0530 (India Standard Time) - Error: Login failed. Please register first
+    at Object.carBookingService.login (D:\bus-booking\bus-booking\MyBusWS\src\services\users.js:27:17)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\bus-booking\bus-booking\MyBusWS\src\routes\routing.js:23:17
+Sun Feb 28 2021 22:38:51 GMT+0530 (India Standard Time) - Error: Login failed. Please register first
+    at Object.carBookingService.login (D:\bus-booking\bus-booking\MyBusWS\src\services\users.js:27:17)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\bus-booking\bus-booking\MyBusWS\src\routes\routing.js:23:17
+Sun Feb 28 2021 22:41:54 GMT+0530 (India Standard Time) - Error: Login failed. Please register first
+    at Object.carBookingService.login (D:\bus-booking\bus-booking\MyBusWS\src\services\users.js:27:17)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\bus-booking\bus-booking\MyBusWS\src\routes\routing.js:23:17
+Sun Feb 28 2021 22:42:49 GMT+0530 (India Standard Time) - Error: Login failed. Please register first
+    at Object.carBookingService.login (D:\bus-booking\bus-booking\MyBusWS\src\services\users.js:27:17)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\bus-booking\bus-booking\MyBusWS\src\routes\routing.js:23:17
+Sun Feb 28 2021 22:43:49 GMT+0530 (India Standard Time) - Error: Login failed. Please register first
+    at Object.carBookingService.login (D:\bus-booking\bus-booking\MyBusWS\src\services\users.js:27:17)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\bus-booking\bus-booking\MyBusWS\src\routes\routing.js:23:17
+Sun Feb 28 2021 22:43:50 GMT+0530 (India Standard Time) - Error: Login failed. Please register first
+    at Object.carBookingService.login (D:\bus-booking\bus-booking\MyBusWS\src\services\users.js:27:17)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\bus-booking\bus-booking\MyBusWS\src\routes\routing.js:23:17
+Sun Feb 28 2021 22:44:23 GMT+0530 (India Standard Time) - Error: Login failed. Please register first
+    at Object.carBookingService.login (D:\bus-booking\bus-booking\MyBusWS\src\services\users.js:27:17)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\bus-booking\bus-booking\MyBusWS\src\routes\routing.js:23:17
+Sun Feb 28 2021 22:45:13 GMT+0530 (India Standard Time) - Error: Login failed. Please register first
+    at Object.carBookingService.login (D:\bus-booking\bus-booking\MyBusWS\src\services\users.js:27:17)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\bus-booking\bus-booking\MyBusWS\src\routes\routing.js:23:17
+Sun Feb 28 2021 22:46:27 GMT+0530 (India Standard Time) - Error: Login failed. Please register first
+    at Object.carBookingService.login (D:\bus-booking\bus-booking\MyBusWS\src\services\users.js:27:17)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\bus-booking\bus-booking\MyBusWS\src\routes\routing.js:23:17
+Sun Feb 28 2021 22:50:17 GMT+0530 (India Standard Time) - Error: Login failed. Please register first
+    at Object.carBookingService.login (D:\bus-booking\bus-booking\MyBusWS\src\services\users.js:27:17)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\bus-booking\bus-booking\MyBusWS\src\routes\routing.js:23:17
+Sun Feb 28 2021 22:51:06 GMT+0530 (India Standard Time) - Error: Login failed. Please register first
+    at Object.carBookingService.login (D:\bus-booking\bus-booking\MyBusWS\src\services\users.js:27:17)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\bus-booking\bus-booking\MyBusWS\src\routes\routing.js:23:17
+Sun Feb 28 2021 22:52:31 GMT+0530 (India Standard Time) - Error: Login failed. Please register first
+    at Object.carBookingService.login (D:\bus-booking\bus-booking\MyBusWS\src\services\users.js:27:17)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\bus-booking\bus-booking\MyBusWS\src\routes\routing.js:23:17
+Wed Mar 03 2021 10:12:23 GMT+0530 (India Standard Time) - ValidationError: Customer validation failed: dateOfBooking: Cast to date failed for value "21/09/2022" at path "dateOfBooking"
+    at model.Document.invalidate (D:\bus-booking\bus-booking\MyBusWS\node_modules\mongoose\lib\document.js:2692:32)
+    at model.$set (D:\bus-booking\bus-booking\MyBusWS\node_modules\mongoose\lib\document.js:1305:12)
+    at model.$set (D:\bus-booking\bus-booking\MyBusWS\node_modules\mongoose\lib\document.js:1009:16)
+    at model.Document (D:\bus-booking\bus-booking\MyBusWS\node_modules\mongoose\lib\document.js:149:12)
+    at model.Model (D:\bus-booking\bus-booking\MyBusWS\node_modules\mongoose\lib\model.js:105:12)
+    at new model (D:\bus-booking\bus-booking\MyBusWS\node_modules\mongoose\lib\model.js:4700:15)
+    at Array.<anonymous> (D:\bus-booking\bus-booking\MyBusWS\node_modules\mongoose\lib\model.js:3261:17)
+    at _start (D:\bus-booking\bus-booking\MyBusWS\node_modules\mongoose\lib\helpers\parallelLimit.js:27:37)
+    at parallelLimit (D:\bus-booking\bus-booking\MyBusWS\node_modules\mongoose\lib\helpers\parallelLimit.js:23:5)
+    at Function.Model.$__insertMany (D:\bus-booking\bus-booking\MyBusWS\node_modules\mongoose\lib\model.js:3291:3)
+    at D:\bus-booking\bus-booking\MyBusWS\node_modules\kareem\index.js:370:33
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+Wed Mar 03 2021 12:04:19 GMT+0530 (India Standard Time) - Error: Login failed. Please register first
+    at Object.carBookingService.login (D:\bus-booking\bus-booking\MyBusWS\src\services\users.js:27:17)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\bus-booking\bus-booking\MyBusWS\src\routes\routing.js:23:17
+Wed Mar 03 2021 12:04:44 GMT+0530 (India Standard Time) - Error: Login failed. Please register first
+    at Object.carBookingService.login (D:\bus-booking\bus-booking\MyBusWS\src\services\users.js:27:17)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\bus-booking\bus-booking\MyBusWS\src\routes\routing.js:23:17
+Wed Mar 03 2021 13:28:46 GMT+0530 (India Standard Time) - Error: Login failed. Please register first
+    at Object.carBookingService.login (D:\bus-booking\bus-booking\MyBusWS\src\services\users.js:27:17)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\bus-booking\bus-booking\MyBusWS\src\routes\routing.js:23:17
