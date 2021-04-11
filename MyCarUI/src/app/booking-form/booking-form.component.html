@@ -1,0 +1,60 @@
+<!-- userid
+carid
+dob
+cartyppe
+price -->
+
+<div class="card" style="width:30rem;vertical-align: middle;">
+    <h3>Book Your Car</h3>
+    <div class="card-body">
+        <form [formGroup]="bookingform" (ngSubmit)="bookCar()">
+            <div class="form-group">
+                <label for="userid">UserId</label>
+                <input type="text" name="userid" id="userid" formControlName="customerId" placeholder="User id here" class="form-control">
+                <div class="useriderr" 
+                *ngIf="bookingform.controls.customerId.dirty && bookingform.controls.customerId.invalid">
+                    <div class="text-danger" *ngIf="bookingform.controls.customerId.errors?.required">Field Required</div>
+                    <div class="text-danger" *ngif="bookingform.controls.customerId.errors?.err">{{bookingform.controls.customerId.errors.err.message}}</div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="carid">CarId</label>
+                <input type="text" name="carid" id="carid" formControlName="carId" placeholder="Car id here" class="form-control">
+                <div class="cariderr"
+                *ngIf="bookingform.controls.carId.dirty && bookingform.controls.carId.invalid">
+                    <span class="text-danger" *ngIf="bookingform.controls.carId.errors?.required">
+                        Field Required
+                    </span>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="dob">dateOfBooking</label>
+                <input type="date" name="dob" id="dob" formControlName="dateOfBooking"  class="form-control">
+                <div class="doberr" *ngIf="bookingform.controls.dateOfBooking.invalid && bookingform.controls.dateOfBooking.dirty">
+                    <span class="text-danger" *ngIf="bookingform.controls.dateOfBooking.errors?.required">
+                        Field Required
+                    </span>
+                </div>
+            </div>
+            <!-- <div class="form-group">
+                <label for="cartype">Car-Type</label>
+                <input type="text" name="cartype" id="cartype" formControlName="cartype" placeholder="cartype here" class="form-control">
+                <div class="cartypeerr">
+                    <span class="text-danger" *ngIf="bookingform.controls.cartype.errors?.required">
+                        Field Required
+                    </span>
+                </div>
+            </div> -->
+            <div class="form-group">
+                <label for="price">price</label>
+                <input type="text" name="price" id="price" formControlName="price" placeholder="price here" class="form-control">
+                <div class="priceerr" *ngIf="bookingform.controls.price.dirty && bookingform.controls.price.invalid">
+                    <span class="text-danger" *ngIf="bookingform.controls.price.errors?.required">
+                        Field Required
+                    </span>
+                </div>
+            </div>
+            <button class="btnn btn-primary" type="submit">Submit</button>
+        </form>
+    </div>
+</div>
