@@ -59,6 +59,19 @@ carBookingDb.login = async(logind)=>{
     }
 }
 
+/** 
+carBookingDb.login=async(userData)=>{
+    let userCol=await dbModel.getCustomerCollection();
+    let userInfo=await userCol.findOne({emailid:userData.emailId})
+    if(userInfo && userInfo.pwd===userData.password){
+    return true
+    }
+    else return null;
+}
+
+*/
+
+
 //get all carDB
 carBookingDb.getAllCar = async() =>{
     let model = await dbModel.getCarCollection();
